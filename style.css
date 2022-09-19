@@ -50,4 +50,17 @@
 .list ul{
    width: 100%;
    height: 100%;
+   overflow: scroll;
+   
+}
+.list ul li{
+   list-style: none;
+   width: 323px;
+   height: 40px;
+   margin: 5px;
+   background-color: lightcoral;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
